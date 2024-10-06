@@ -13,10 +13,10 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/googlecloud/googlecloud-original.svg" title="Google Cloud" **alt="GCP" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original-wordmark.svg" title="Azure" alt="Azure" width="40" height="40"/>&nbsp;
 
----
+<!-- ---
 
 ### 🔥 &nbsp; My Stats :
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=edugoja&theme=dark)](https://git.io/streak-stats)
 
----
+--- -->
