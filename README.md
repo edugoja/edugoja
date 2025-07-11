@@ -1,17 +1,6 @@
-# Hi there, I'm Eduardo! 👋
+# 👋 Hello! I'm Eduardo
 
-<p align="center">
-  <a href="https://github.com/edugoja">
-    <img src="https://github-readme-stats.vercel.app/api?username=edugoja&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Eduardo's GitHub Stats" width="400"/>
-  </a>
-  <a href="https://github.com/edugoja">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=edugoja&theme=radical&layout=compact" alt="WakaTime Stats" width="400"/>
-  </a>
-</p>
-
-I'm a Software Engineer specializing in building robust, scalable backend systems and tackling complex technical challenges. I thrive on designing elegant solutions and writing clean, efficient code.
-
-My passion lies in the entire development lifecycle, from initial concept and architecture design right through to deployment and maintenance.
+I'm a passionate Software Developer dedicated to building and improving software solutions. I have a strong foundation in C#, Java, Python, and JavaScript, and I'm always eager to learn new technologies and take on new challenges.
 
 ---
 
@@ -27,38 +16,31 @@ Here are some of the main technologies and tools I work with:
 
 ---
 
-### 💼 Professional Experience & Case Studies
+### 📜 My Certifications
 
-While most of my repositories are private due to the nature of my work, here’s a glimpse into the types of projects I've worked on.
-> #### 📈 Data Analytics Platform @ [Davivienda](https://www.davivienda.com/)
->
-> * **Problem:** The data science team lacked an efficient way to run complex analytical queries on large datasets stored in disparate systems.
-> * **My Role & Solution:** I developed a suite of Python-based tools and a central API (using FastAPI) that provided a unified interface for data access. This involved creating optimized data ingestion scripts, managing data warehousing tasks, and building a secure API layer for the frontend team to consume.
-> * **Tech Stack:** `Python`, `FastAPI`, `Pandas`, `SQLAlchemy`, `Docker`, `GCP`, `BigQuery`.
-
-> #### 🚀 Internal Event Processing Pipeline @ [Agrosavia](https://www.agrosavia.co/)
->
-> * **Problem:** The company needed a high-throughput system to process millions of real-time events daily from various internal services for analytics and fraud detection.
-> * **My Role & Solution:** I was a key engineer in designing and building a new event-driven pipeline from the ground up. I developed several core microservices in Go, which communicated via gRPC and Kafka. We focused on reliability and horizontal scalability, deploying the entire stack on Kubernetes (EKS). I also implemented structured logging and metrics, which were visualized in Grafana to monitor system health.
-> * **Tech Stack:** `Go`, `gRPC`, `Kafka`, `PostgreSQL`, `Kubernetes`, `Docker`, `Prometheus`, `AWS`.
-> * ** URL: [https://iraka.agrosavia.co/](https://iraka.agrosavia.co/)
-
-
----
-
-### 🌱 My Public Contributions & Gists
-
-* **[Name of an Open Source Contribution]** - A brief description of what you did (e.g., "Fixed a bug in the documentation for Project X").
-* **[Name of a Public Gist]** - A brief description (e.g., "A handy Bash script for automating database backups").
-* *You can add more public contributions or personal projects here as they become available!*
-
----
-
-### 📫 How to Reach Me
-
-Feel free to connect with me on any of the following platforms.
+I'm a firm believer in continuous learning. These are some of the certifications I've earned to validate my skills.
 
 <p align="left">
-<a href="https://linkedin.com/in/edugoja" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="Eduardo's LinkedIn" height="40" width="40" /></a>
-<a href="mailto:your.email@example.com" target="blank"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Eduardo's Email" height="40" width="40" /></a>
+  <a href="https://cloud.google.com/certification/cloud-architect">
+    <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-0078D4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
+  </a>
+  <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">
+    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D4?style=for-the-badge&logo=msazure" alt="Azure Fundamentals Badge"/>
+  </a>
 </p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="./edugoja-github-stats.svg" alt="My Private Contributions Stats" />
+</p>
+
+---
+
+### 📫 Get In Touch
+
+I'm always open to connecting with fellow developers and discussing new opportunities.
+
+* **LinkedIn:** [https://www.linkedin.com/in/edugoja/](https://www.linkedin.com/in/edugoja/)
