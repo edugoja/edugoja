@@ -32,7 +32,7 @@ I'm a firm believer in continuous learning. These are some of the certifications
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="./edugoja-github-stats.svg" alt="My Private Contributions Stats" />
+  <img src="./edugoja-github-stats_.svg" alt="My Private Contributions Stats" />
 </p>
 
 ---
