@@ -52,11 +52,11 @@
                     <div class="stats-grid">
                         <div class="stat-item">
                             <h4>Total Stars</h4>
-                            <p>4</p>
+                            <p>5</p>
                         </div>
                         <div class="stat-item">
                             <h4>Total Commits (Last Year)</h4>
-                            <p>433</p>
+                            <p>561</p>
                         </div>
                     </div>
                      <div>
@@ -69,6 +69,11 @@
         </div>
     
         <div style="display: flex; align-items: center; margin-bottom: 4px;">
+            <div style="width: 10px; height: 10px; background-color: #3572A5; border-radius: 50%; margin-right: 8px;"></div>
+            <span>Python</span>
+        </div>
+    
+        <div style="display: flex; align-items: center; margin-bottom: 4px;">
             <div style="width: 10px; height: 10px; background-color: #178600; border-radius: 50%; margin-right: 8px;"></div>
             <span>C#</span>
         </div>
@@ -76,11 +81,6 @@
         <div style="display: flex; align-items: center; margin-bottom: 4px;">
             <div style="width: 10px; height: 10px; background-color: #f1e05a; border-radius: 50%; margin-right: 8px;"></div>
             <span>JavaScript</span>
-        </div>
-    
-        <div style="display: flex; align-items: center; margin-bottom: 4px;">
-            <div style="width: 10px; height: 10px; background-color: #3572A5; border-radius: 50%; margin-right: 8px;"></div>
-            <span>Python</span>
         </div>
     
         <div style="display: flex; align-items: center; margin-bottom: 4px;">
