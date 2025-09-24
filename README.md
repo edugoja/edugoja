@@ -22,6 +22,7 @@ I'm a firm believer in continuous learning. These are some of the certifications
   <a href="https://cloud.google.com/certification/cloud-architect" target="_blank">
     <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-0078D4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
   </a>
+  <br/>
   <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D4?style=for-the-badge&logo=msazure" alt="Azure Fundamentals Badge"/>
   </a>
