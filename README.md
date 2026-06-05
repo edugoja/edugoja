@@ -14,6 +14,14 @@ Here are some of the main technologies and tools I work with:
 
 ---
 
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="./edugoja-github-stats.svg" alt="My Private Contributions Stats" />
+</p>
+
+---
+
 ### 📜 My Certifications
 
 I'm a firm believer in continuous learning. These are some of the certifications I've earned to validate my skills.
@@ -26,14 +34,6 @@ I'm a firm believer in continuous learning. These are some of the certifications
   <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D4?style=for-the-badge&logo=msazure" alt="Azure Fundamentals Badge"/>
   </a>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="./edugoja-github-stats_.svg" alt="My Private Contributions Stats" />
 </p>
 
 ---
