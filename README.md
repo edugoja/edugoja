@@ -9,7 +9,7 @@ I'm a passionate Software Developer dedicated to building and improving software
 Here are some of the main technologies and tools I work with:
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=cs,java,python,nodejs,flutter,angular,docker,kubernetes,gcp,azure,postgres,redis,linux" />
+    <img src="https://skillicons.dev/icons?i=cs,java,python,nodejs,flutter,angular,docker,kubernetes,gcp,azure,postgres,redis,linux" alt="C#, Java, Python, Node.js, Flutter, Angular, Docker, Kubernetes, GCP, Azure, PostgreSQL, Redis, Linux" />
 </p>
 
 ---
@@ -27,11 +27,11 @@ Here are some of the main technologies and tools I work with:
 I'm a firm believer in continuous learning. These are some of the certifications I've earned to validate my skills.
 
 <p align="left">
-  <a href="https://cloud.google.com/certification/cloud-architect" target="_blank">
+  <a href="https://cloud.google.com/learn/certification/cloud-architect">
     <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-0078D4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
   </a>
   <br/>
-  <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank">
+  <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">
     <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D4?style=for-the-badge&logo=msazure" alt="Azure Fundamentals Badge"/>
   </a>
 </p>
