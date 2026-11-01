@@ -1,0 +1,8 @@
+{
+  // README.md is a GitHub profile page, so it relies on inline HTML for layout.
+  "MD033": false,
+  // Prose and badge/icon URLs are long by nature.
+  "MD013": false,
+  // Section headings are h3 on purpose (smaller, no underline on GitHub).
+  "MD001": false
+}
