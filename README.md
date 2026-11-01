@@ -9,7 +9,7 @@ I'm a passionate Software Developer dedicated to building and improving software
 Here are some of the main technologies and tools I work with:
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=cs,java,python,nodejs,flutter,angular,docker,kubernetes,gcp,azure,postgres,redis,linux" />
+    <img src="https://skillicons.dev/icons?i=cs,java,python,nodejs,flutter,angular,docker,kubernetes,gcp,azure,postgres,redis,linux" alt="C#, Java, Python, Node.js, Flutter, Angular, Docker, Kubernetes, GCP, Azure, PostgreSQL, Redis, Linux" />
 </p>
 
 ---
