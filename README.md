@@ -27,7 +27,7 @@ Here are some of the main technologies and tools I work with:
 I'm a firm believer in continuous learning. These are some of the certifications I've earned to validate my skills.
 
 <p align="left">
-  <a href="https://cloud.google.com/certification/cloud-architect" target="_blank">
+  <a href="https://cloud.google.com/learn/certification/cloud-architect" target="_blank">
     <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-0078D4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
   </a>
   <br/>
