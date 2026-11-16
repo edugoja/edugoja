@@ -107,7 +107,7 @@ function generateSVG(stats) {
 
     // Return the complete SVG string
     return `
-    <svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+    <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <style>
@@ -118,20 +118,14 @@ function generateSVG(stats) {
                         border-radius: 8px;
                         padding: 20px;
                         width: 358px; /* 400 - 2*20 - 2*1 */
-                        height: 208px; /* 250 - 2*20 - 2*1 */
+                        height: 158px; /* 200 - 2*20 - 2*1 */
                         display: flex;
                         flex-direction: column;
-                    }
-                    h3 {
-                        margin: 0;
-                        font-size: 18px;
-                        color: #58a6ff;
                     }
                     .content-body {
                         display: flex;
                         flex-direction: row;
                         gap: 24px;
-                        margin-top: 20px;
                         flex-grow: 1;
                     }
                     .column-left {
@@ -173,7 +167,6 @@ function generateSVG(stats) {
                     }
                 </style>
                 <div class="container">
-                    <h3>GitHub Stats</h3>
                     <div class="content-body">
                         <div class="column-left">
                             <div class="stat-item">
