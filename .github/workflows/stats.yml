@@ -17,11 +17,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: npm
-          cache-dependency-path: stats/package-lock.json
-
-      - name: Install dependencies
-        run: npm ci --prefix stats
 
       - name: Generate stats SVG
         run: node stats/generate-stats.js ${{ github.repository_owner }}

@@ -11,7 +11,7 @@ public profile.
 | --- | --- |
 | `README.md` | The profile page itself. |
 | `edugoja-github-stats.svg` | Stats card (commit count, top languages) embedded in the README. Regenerated daily. |
-| `stats/` | Node script that generates the stats card from the GitHub GraphQL API. |
+| `stats/` | Dependency-free Node script that generates the stats card from the GitHub GraphQL API. |
 | `.github/workflows/stats.yml` | Daily workflow that regenerates and commits the stats card. |
 | `.markdownlint.jsonc` | Lint rules for the README. |
 
@@ -53,7 +53,6 @@ day at 00:00 UTC and commits it if it changed. To refresh it now, run the
 workflow from the Actions tab. To generate it locally:
 
 ```sh
-npm ci --prefix stats
 GITHUB_API_TOKEN=<token> node stats/generate-stats.js edugoja
 ```
 
@@ -64,7 +63,7 @@ show. Renaming the file and updating the README path forces a refresh.
 
 | Name | Where | Purpose |
 | --- | --- | --- |
-| `GITHUB_API_TOKEN` | Local shell or `.env` (git-ignored) | GitHub token used by `stats/generate-stats.js`. |
+| `GITHUB_API_TOKEN` | Local shell (or `node --env-file=.env`; `.env` is git-ignored) | GitHub token used by `stats/generate-stats.js`. |
 | `GH_TOKEN` | Repository secret | Passed to the workflow as `GITHUB_API_TOKEN`. Use a token that can read your private contributions. |
 
 ## Deployment

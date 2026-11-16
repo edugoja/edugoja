@@ -1,16 +1,14 @@
-// Import the axios library for making HTTP requests
-const axios = require('axios');
-
 // Import the Node.js file system module
 const fs = require('fs');
-
-// Load environment variables from .env file
-require('dotenv').config();
 
 // Get the name of the GitHub user from the command line arguments
 const username = process.argv[2];
 if (!username) {
     console.error('Please provide a GitHub username as a command line argument.');
+    process.exit(1);
+}
+if (!process.env.GITHUB_API_TOKEN) {
+    console.error('GITHUB_API_TOKEN is not set.');
     process.exit(1);
 }
 
@@ -24,14 +22,9 @@ async function fetchGitHubStats(username) {
         login
         contributionsCollection {
           totalCommitContributions
-          restrictedContributionsCount
         }
         repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
           nodes {
-            name
-            stargazers {
-              totalCount
-            }
             primaryLanguage {
               name
               color
@@ -45,19 +38,24 @@ async function fetchGitHubStats(username) {
     // Make a POST request to the GitHub GraphQL API with the query and variables
     try {
         console.debug('Fetching GitHub stats...')
-        const response = await axios.post('https://api.github.com/graphql', {
-            query: query, variables: {username},
-        }, {
+        const response = await fetch('https://api.github.com/graphql', {
+            method: 'POST',
             headers: {
                 'Authorization': `bearer ${process.env.GITHUB_API_TOKEN}`,
+                'Content-Type': 'application/json',
             },
+            body: JSON.stringify({query, variables: {username}}),
         });
+        if (!response.ok) {
+            throw new Error(`GitHub API responded with ${response.status} ${response.statusText}`);
+        }
+        const body = await response.json();
 
         // If the response contains data, return it. Otherwise, handle errors.
-        if (response.data.data) {
-            return response.data.data;
+        if (body.data) {
+            return body.data;
         } else {
-            throw new Error(response.data.errors?.map(e => e.message).join(', ') || 'Unknown GraphQL error');
+            throw new Error(body.errors?.map(e => e.message).join(', ') || 'Unknown GraphQL error');
         }
     } catch (error) {
         console.error('Error fetching GitHub stats:', error.message);
@@ -69,9 +67,6 @@ async function fetchGitHubStats(username) {
 function processStats(data) {
     const user = data.user;
     const repositories = user.repositories.nodes;
-
-    // Calculate total stars
-    const totalStars = repositories.reduce((acc, repo) => acc + repo.stargazers.totalCount, 0);
 
     // Tally up the languages
     const languageMap = repositories.reduce((acc, repo) => {
@@ -94,7 +89,6 @@ function processStats(data) {
     return {
         name: user.name || user.login,
         totalCommits: user.contributionsCollection.totalCommitContributions,
-        totalStars,
         topLanguages,
     };
 }// processStats
