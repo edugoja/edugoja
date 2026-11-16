@@ -17,7 +17,7 @@ Here are some of the main technologies and tools I work with:
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="./edugoja-github-stats.svg" alt="My Private Contributions Stats" />
+  <img src="./edugoja-github-stats.svg" alt="GitHub stats: commits in the last year and top languages" />
 </p>
 
 ---
@@ -28,7 +28,7 @@ I'm a firm believer in continuous learning. These are some of the certifications
 
 <p align="left">
   <a href="https://cloud.google.com/learn/certification/cloud-architect">
-    <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-0078D4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
+    <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-4285F4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
   </a>
   <br/>
   <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">
