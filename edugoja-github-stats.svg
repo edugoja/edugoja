@@ -70,7 +70,7 @@
                         <div class="column-left">
                             <div class="stat-item">
                                 <h4>Total Commits</h4>
-                                <p>1059</p>
+                                <p>1465</p>
                                 <div class="stat-desc">In the last year</div>
                             </div>
                         </div>
@@ -84,16 +84,6 @@
         </div>
     
         <div style="display: flex; align-items: center; margin-bottom: 4px;">
-            <div style="width: 10px; height: 10px; background-color: #00B4AB; border-radius: 50%; margin-right: 8px;"></div>
-            <span>Dart</span>
-        </div>
-    
-        <div style="display: flex; align-items: center; margin-bottom: 4px;">
-            <div style="width: 10px; height: 10px; background-color: #178600; border-radius: 50%; margin-right: 8px;"></div>
-            <span>C#</span>
-        </div>
-    
-        <div style="display: flex; align-items: center; margin-bottom: 4px;">
             <div style="width: 10px; height: 10px; background-color: #3572A5; border-radius: 50%; margin-right: 8px;"></div>
             <span>Python</span>
         </div>
@@ -101,6 +91,16 @@
         <div style="display: flex; align-items: center; margin-bottom: 4px;">
             <div style="width: 10px; height: 10px; background-color: #f1e05a; border-radius: 50%; margin-right: 8px;"></div>
             <span>JavaScript</span>
+        </div>
+    
+        <div style="display: flex; align-items: center; margin-bottom: 4px;">
+            <div style="width: 10px; height: 10px; background-color: #00B4AB; border-radius: 50%; margin-right: 8px;"></div>
+            <span>Dart</span>
+        </div>
+    
+        <div style="display: flex; align-items: center; margin-bottom: 4px;">
+            <div style="width: 10px; height: 10px; background-color: #7355dd; border-radius: 50%; margin-right: 8px;"></div>
+            <span>C#</span>
         </div>
     
                             </div>
