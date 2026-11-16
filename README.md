@@ -1,6 +1,8 @@
 # 👋 Hello! I'm Eduardo
 
-I'm a passionate Software Developer dedicated to building and improving software solutions. I have a strong foundation in C#, Java, Python, and JavaScript, and I'm always eager to learn new technologies and take on new challenges.
+I'm a Solutions Architect focused on cloud architecture, with a Google Cloud Professional Cloud Architect certification and a background in C#, Java, Python, and JavaScript.
+
+I use AI to automate as much of my workflow as I can, and I work on personal projects in my spare time. I may open some of them up if they turn out to be useful to others.
 
 ---
 
