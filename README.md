@@ -29,11 +29,11 @@ Here are some of the main technologies and tools I work with:
 I'm a firm believer in continuous learning. These are some of the certifications I've earned to validate my skills.
 
 <p align="left">
-  <a href="https://cloud.google.com/learn/certification/cloud-architect">
+  <a href="https://www.credly.com/badges/d7ae8cba-3883-4954-aa09-616a66c9a1d5/public_url">
     <img src="https://img.shields.io/badge/Google_Cloud_Certified-Professional_Cloud_Architect-4285F4?style=for-the-badge&logo=google-cloud" alt="Google Cloud Professional Cloud Architect Badge"/>
   </a>
   <br/>
-  <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">
+  <a href="https://www.credly.com/badges/1cddbcfe-65c3-46a9-9285-6fe9a8f8a094/public_url">
     <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D4?style=for-the-badge&logo=msazure" alt="Azure Fundamentals Badge"/>
   </a>
 </p>
